@@ -1,0 +1,141 @@
+#nav
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 75%;
+    border: 1px solid black;
+}
+
+#nav a
+{
+    justify-content: space-between 20px;
+
+}
+
+#header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    width: 120px;
+}
+input 
+{
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 12px;
+}
+
+#tousleshebergements
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#hebergementsamarseille
+{
+    display: flex;
+    width: 61%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(243, 238, 238); 
+    margin-right: 60px;
+    margin-left: 70px;
+    border-radius: 12px;
+}
+#hebergementsamarseille img
+{
+    border-radius: 12px 12px 0px 0px;
+}
+
+#hebergementsamarseille figure
+{
+    border-radius: 12px;
+    background-color: white;
+    border: solid 6px white;
+}
+
+#hebergementsamarseille h2
+{
+    width: 100%;
+}
+
+#lespluspopulaires
+{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    background-color: rgb(243, 238, 238);
+    flex-wrap: wrap;
+    border-radius: 12px;
+    margin-right: 90px;
+}
+
+#lespluspopulaires figure
+{
+    border-radius: 12px;
+    background-color: white;
+    border: solid 6px white;
+}
+#activitesamarseille
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#activitesamarseille img
+{
+    border-radius: 12px 12px 0px 0px;
+}
+
+#footer
+{
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    flex-wrap: wrap;
+    background-color: rgb(243, 238, 238);
+}
+
+#apropos
+{
+    display: flex;
+    flex-direction: column;
+}    
+
+#noshebergements
+{
+    display: flex;
+    flex-direction: row;
+}   
+#assistance
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-solid
+{
+    color: blue;
+}
+
+.fa-regular
+{
+    color: grey;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+
+
